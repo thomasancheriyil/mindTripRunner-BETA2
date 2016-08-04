@@ -9,7 +9,7 @@ public class popUpMoveFade : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		transform.Translate(Vector3.up * 50* Time.deltaTime, Space.World);
-		transform.Translate(Vector3.right * 50* Time.deltaTime, Space.World);
+		transform.Translate(Vector3.down * 100* Time.deltaTime, Space.World);
+		transform.Translate(Vector3.left * 140* Time.deltaTime, Space.World);
 	}
 }
